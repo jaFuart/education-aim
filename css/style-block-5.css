@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.carousel{
+    background: #7B4B89 !important;
+    border-radius: 250px 250px 0px 0px !important;
+}
+
+.expert-picture{
+    vertical-align: middle;
+}
+
+.expert-1{
+    background: url(../img/expert-1.png);
+    border-radius: 1000px;
+    background-size: cover;
+    margin: 100px 0 !important;
+}
+
+.expert-2{
+    background: url(../img/expert-2.png);
+    border-radius: 1000px;
+    background-size: cover;
+    margin: 100px 0 !important;
+}
+
+.expert-3{
+    background: url(../img/expert-3.png);
+    border-radius: 1000px;
+    background-size: cover;
+    margin: 100px 0 !important;
+}
+
+.expert-4{
+    background: url(../img/expert-4.png);
+    border-radius: 1000px;
+    background-size: cover;
+    margin: 100px 0 !important;
+}
+
+.expert-5{
+    background: url(../img/expert-5.png);
+    border-radius: 1000px;
+    background-size: cover;
+    margin: 100px 0 !important;
+}
+
+.exp-quote{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.exp-author{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.exp-org{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130%;
+    color: #FFFFFF;
+}
+
+.carousel-caption{
+    width: 868px;
+    height: 254px;
+    left: auto;
+    right: 20%;
+    margin: 100px 0 !important;
+}
+
+.carousel-control-prev-icon{
+    width: 40px;
+    height: 73.27px;
+    background: url(../img/prev.svg);
+    background-size: cover;
+}
+
+.carousel-control-next-icon{
+    width: 40px;
+    height: 73.27px;
+    background: url(../img/next.svg);
+    background-size: cover;
+}
+
+/* .carousel-control-prev{
+    width: 103px;
+} */
+
+/* .carousel-control-next{
+    width: 103px;
+} */
+
+.carousel-btn{
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 100%;
+    background: #FFFFFF;
+}
+
+.carousel-mob {
+    display: none;
+}
+
+@media only screen and (min-device-width : 1896px) and (max-device-width: 1920px) {}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width: 1824px) {}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 896px) {}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+
+    .carousel-full {
+        display: none;
+    }
+    
+    .carousel-item {
+        height: 923px;
+    }
+
+    .carousel-mob {
+        display: flex;
+    }
+
+    .expert-1, .expert-2, .expert-3, .expert-4, .expert-5 {
+        width: 250px;
+        height: 250px;
+        margin: 0;
+    }
+
+    .exp-author, .exp-org, .exp-quote {
+        font-size: 5vw;
+    }
+
+    .carousel-control-next-icon, .carousel-control-prev-icon {
+        position: relative;
+        top: -25%;
+        width: 54.95px;
+        height: 30px;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center center;
+    }
+
+}

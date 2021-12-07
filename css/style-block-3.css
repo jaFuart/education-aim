@@ -1,0 +1,216 @@
+@font-face{
+    font-family: 'TTFirs-Medium';
+    src: url(../fonts/ttfirs/ttf/TTFirs-Medium.ttf);
+}
+
+@font-face{
+    font-family: 'TTFirs-Bold';
+    src: url(../fonts/ttfirs/ttf/TTFirs-Bold.ttf);
+}
+
+.main-number{
+    font-family: TTFirs-Bold;
+    font-size: 100px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: #7B4B89;
+}
+
+.main-num-txt, .main-num-txt-1 {
+    font-family: TTFirs-Medium;
+    font-size: 40px;
+    line-height: 130%;
+    color: #000000;
+}
+
+
+
+.pop-up{
+    width: 600px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 0px 60px 60px 0px;
+
+    font-family: TTFirs-Bold;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: #7B4B89;
+}
+
+.pop-up-reverse{
+    width: 600px;
+    height: 100px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    border-radius: 60px 0px 0px 60px;
+
+    font-family: TTFirs-Bold;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: #7B4B89;
+}
+
+.zero-btn{
+    border: none; 
+    outline: none;
+}
+
+.modal-title{
+    font-family: TTFirs-Bold;
+    font-size: 26px;
+    line-height: 100%;
+    letter-spacing: 0.1em;
+    color: #7B4B89;
+}
+
+.modal-txt{
+    font-family: TTFirs-Medium;
+    font-size: 20px;
+    line-height: 130%;
+    color: #000000;
+}
+
+.modal-mob {
+    display: none;
+}
+
+.overlay { opacity: 0; visibility: hidden; position:fixed; left: 0; right: 0; top: 0; bottom: 0; z-index: 5; background: rgba(0,0,0,0.20); }
+
+.dlg-modal { width: 100%; max-width: 1264px; max-height: 416px; opacity: 0; visibility: hidden; text-align: left; position: fixed; left: 50%; z-index: 10; padding: 35px 36px; background: #FFFFFF; border-radius: 0px 200px 200px 0px; -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.85); box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25); }
+.dlg-modal-slide { left: 33%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); visibility: visible; opacity: 1; }
+
+.dlg-modalr { width: 100%; max-width: 1264px; max-height: 416px; opacity: 0; visibility: hidden; text-align: left; position: fixed; left: 66.8%; right: 0%; z-index: 10; padding: 35px 36px; background: #FFFFFF; border-radius: 200px 0px 0px 200px; -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.85); box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25); }
+.dlg-modalr-slide { right: -110%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); visibility: visible; opacity: 1; }
+
+.dlg-modalm { width: 100%; max-height: 865px; height: auto; opacity: 0; visibility: hidden; text-align: left; position: fixed; left: 50%; z-index: 10; background: #F8F8F8; border-radius: 20px;}
+.dlg-modalm-fade { top: 50%; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
+.fadeIn, .fadeOut { -webkit-animation-duration: 0.4s; animation-duration: 0.4s; -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+
+.closer { width: 40px; height: 40px; display: block; position: absolute; right: 20%; top: 9%; background: url('../img/cross.png') no-repeat; cursor: pointer; }
+
+/* animation */
+.slideInDown, .slideOutUp { -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+
+@keyframes slideInDown { 
+	from {top: 50%; left: -110%;}
+	to {top: 50%; left: 33%;}
+}
+.slideInDown { -webkit-animation-name: slideInDown; animation-name: slideInDown; top: 50%; transform: translate(-50%, -50%); }
+
+@keyframes slideOutUp { 
+	from { top: 50%; left: 33%;}
+	to { top: 50%; left: -110%}
+}
+.slideOutUp { -webkit-animation-name: slideOutUp; animation-name: slideOutUp; top: 50%; transform: translate(-153%, -50%); }
+
+.slideInDownr, .slideOutUpr { -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-timing-function: linear; animation-timing-function: linear; }
+
+@keyframes slideInDownr { 
+	from {top: 50%; left: 210%;}
+	to {top: 50%; left: 66.8%;}
+}
+.slideInDownr { -webkit-animation-name: slideInDownr; animation-name: slideInDownr; top: 50%; transform: translate(-50%, -50%); }
+
+@keyframes slideOutUpr { 
+	from { top: 50%; right: 66.8%;}
+	to { top: 50%; left: 210%}
+}
+.slideOutUpr { -webkit-animation-name: slideOutUpr; animation-name: slideOutUpr; top: 50%; transform: translate(286.8%, -50%); }
+
+@keyframes fadeIn { 
+    from { opacity: 0; visibility: hidden; }
+    to { opacity:1; visibility: visible; }
+}
+.fadeIn { -webkit-animation-name: fadeIn; animation-name: fadeIn; opacity: 1; visibility: visible; }
+
+@keyframes fadeOut { 
+    from { opacity: 1; visibility: visible; }
+    to { opacity:0; visibility: hidden; }
+}
+.fadeOut { -webkit-animation-name: fadeOut; animation-name: fadeOut; opacity: 0; visibility: hidden; }
+
+@media only screen and (min-device-width : 1896px) and (max-device-width: 1920px) {}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width: 1824px) {}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 896px) {}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+
+    .modal-hide {
+        display: none;
+    }
+
+    .modal-mob {
+        display: inline;
+    }
+
+	.main-number {
+        font-family: TTFirs-Bold;
+        font-size: 190px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #7B4B89;
+        opacity: 0.3;
+    }
+
+    .main-num-txt {
+        font-family: TTFirs-Medium;
+        font-size: 26px;
+        line-height: 130%;
+        color: #000000;
+
+        position: relative;
+        left: -135px;
+        top: 40px;
+    }
+
+    .main-num-txt-1 {
+        font-family: TTFirs-Medium;
+        font-size: 26px;
+        line-height: 130%;
+        color: #000000;
+
+        position: relative;
+        left: -85px;
+        top: 40px;
+    }
+
+    .pop-up-mob {
+        background: #FFFFFF;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+        border-radius: 20px;
+        width: 354px;
+        height: 120px;
+
+        font-family: TTFirs-Bold;
+        font-size: 22px;
+        line-height: 100%;
+        text-align: center;
+        letter-spacing: 0.1em;
+        color: #7B4B89;
+        width: 100%;
+    }
+
+    .closer { width: 40px; height: 40px; display: block; position: fixed; right: 0%; top: 2%; background: url('../img/cross.png') no-repeat; cursor: pointer; }
+
+    .modal-title {
+        font-family: TTFirs-Bold;
+        font-size: 6vw;
+        line-height: 100%;
+        letter-spacing: 0.1em;
+        color: #7B4B89;
+    }
+
+    .modal-txt {
+        font-family: TTFirs-Regular;
+        font-size: 5vw;
+        line-height: 130%;
+        color: #000000;
+    }
+
+}

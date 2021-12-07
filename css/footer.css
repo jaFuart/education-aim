@@ -1,0 +1,50 @@
+#footer-map {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 38px;
+
+    color: #C05C00;
+}
+
+.footer-other {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 38px;
+
+    color: #757575;
+}
+
+footer a {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+    text-decoration: none;
+
+    color: #ADADAD;
+}
+
+@media only screen and (min-device-width : 1896px) and (max-device-width: 1920px) {}
+
+@media only screen and (min-device-width : 1024px) and (max-device-width: 1824px) {}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 896px) {
+
+    .block_titles{
+        font-size: 30px;
+    }
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 640px) {
+
+    .block_titles{
+        font-size: 25px;
+    }
+
+}
