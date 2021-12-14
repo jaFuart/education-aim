@@ -26,6 +26,7 @@
     line-height: 100%;
     letter-spacing: 0.1em;
     color: #000000;
+    flex: 0%;
 }
 
 .nav-link.nav-link-tab.sep {
@@ -73,7 +74,7 @@ nav-link.nav-link-tab.corner-r:hover{
     line-height: 100% !important;
     letter-spacing: 0.1em !important;
     color: #FFFFFF !important;
-    flex: auto;
+    flex: 0%;
 }
 
 .nav-link.nav-link-tab.active.corner-r {
@@ -86,7 +87,6 @@ nav-link.nav-link-tab.corner-r:hover{
     line-height: 100% !important;
     letter-spacing: 0.1em !important;
     color: #FFFFFF !important;
-    flex: auto;
 }
 
 .nav-link.nav-link-tab.active.corner-l {
@@ -99,7 +99,6 @@ nav-link.nav-link-tab.corner-r:hover{
     line-height: 100% !important;
     letter-spacing: 0.1em !important;
     color: #FFFFFF !important;
-    flex: auto;
 }
 
 .nav-tab-title{

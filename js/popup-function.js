@@ -3,7 +3,7 @@
 	const mOpen = document.querySelectorAll('[data-modal]');
 	if (mOpen.length == 0) return;
 
-	const overlay = document.querySelector('.overlay'),
+	const overlay = document.querySelector('.overlay-l'),
 	modals = document.querySelectorAll('.dlg-modal'),
 	mClose = document.querySelectorAll('[data-close]');
 	let	mStatus = false;
@@ -54,7 +54,7 @@
 	const mOpen = document.querySelectorAll('[data-modalr]');
 	if (mOpen.length == 0) return;
 
-	const overlay = document.querySelector('.overlay'),
+	const overlay = document.querySelector('.overlay-r'),
 	modals = document.querySelectorAll('.dlg-modalr'),
 	mClose = document.querySelectorAll('[data-close]');
 	let	mStatus = false;

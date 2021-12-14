@@ -135,11 +135,11 @@
     .expert-1, .expert-2, .expert-3, .expert-4, .expert-5 {
         width: 250px;
         height: 250px;
-        margin: 0;
+        margin: 100px 0 50px !important;
     }
 
     .exp-author, .exp-org, .exp-quote {
-        font-size: 5vw;
+        font-size: 19px;
     }
 
     .carousel-control-next-icon, .carousel-control-prev-icon {
@@ -150,6 +150,11 @@
         background-size: contain;
         background-repeat: no-repeat;
         background-position: center center;
+    }
+
+    .alinged-c {
+        text-align: center;
+        padding-right: 2.2rem !important;
     }
 
 }
