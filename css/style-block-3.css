@@ -33,7 +33,7 @@
     border-radius: 0px 60px 60px 0px;
 
     font-family: TTFirs-Bold;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 100%;
     letter-spacing: 0.1em;
     color: #7B4B89;
@@ -47,7 +47,7 @@
     border-radius: 60px 0px 0px 60px;
 
     font-family: TTFirs-Bold;
-    font-size: 26px;
+    font-size: 24px;
     line-height: 100%;
     letter-spacing: 0.1em;
     color: #7B4B89;
@@ -92,6 +92,8 @@
 .fadeIn, .fadeOut { -webkit-animation-duration: 0.4s; animation-duration: 0.4s; -webkit-animation-timing-function: linear; animation-timing-function: linear; }
 
 .closer { width: 40px; height: 40px; display: block; position: absolute; right: 20%; top: 9%; background: url('../img/cross.png') no-repeat; cursor: pointer; }
+.closer-mob { width: 28px; height: 28px; display: block; position: absolute; right: 6%; top: 4%; background: url('../img/cross.png') no-repeat; background-size: cover; cursor: pointer; }
+.closer-mob-fs { width: 28px; height: 28px; display: block; position: absolute; right: 6%; top: 6%; background: url('../img/cross.png') no-repeat; background-size: cover; cursor: pointer; }
 
 /* animation */
 .slideInDown, .slideOutUp { -webkit-animation-duration: 0.5s; animation-duration: 0.5s; -webkit-animation-timing-function: linear; animation-timing-function: linear; }
