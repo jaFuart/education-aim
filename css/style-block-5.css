@@ -71,7 +71,7 @@
     color: #FFFFFF;
 }
 
-.carousel-caption{
+.carousel-caption {
     width: 868px;
     height: 254px;
     left: auto;
@@ -114,7 +114,13 @@
 
 @media only screen and (min-device-width : 1896px) and (max-device-width: 1920px) {}
 
-@media only screen and (min-device-width : 1024px) and (max-device-width: 1824px) {}
+@media only screen and (min-device-width : 1024px) and (max-device-width: 1824px) {
+
+    .carousel-caption {
+        right: 10%;
+    }
+
+}
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 896px) {}
 

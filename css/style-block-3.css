@@ -33,7 +33,7 @@
     border-radius: 0px 60px 60px 0px;
 
     font-family: TTFirs-Bold;
-    font-size: 24px;
+    font-size: 1.2vw;
     line-height: 100%;
     letter-spacing: 0.1em;
     color: #7B4B89;
@@ -47,7 +47,7 @@
     border-radius: 60px 0px 0px 60px;
 
     font-family: TTFirs-Bold;
-    font-size: 24px;
+    font-size: 1.2vw;
     line-height: 100%;
     letter-spacing: 0.1em;
     color: #7B4B89;
@@ -136,9 +136,33 @@
 }
 .fadeOut { -webkit-animation-name: fadeOut; animation-name: fadeOut; opacity: 0; visibility: hidden; }
 
+@media only screen and (min-device-width : 1921px) and (max-device-width: 3000px) {
+
+    .pop-up{
+        width: 21vw;
+        font-size: 1vw;
+    }
+
+    .pop-up-reverse{
+        width: 21vw;
+        font-size: 1vw;
+    }
+
+    .slideOutUp { -webkit-animation-name: slideOutUp; animation-name: slideOutUp; top: 50%; transform: translate(-200%, -50%); }
+
+}
+
 @media only screen and (min-device-width : 1896px) and (max-device-width: 1920px) {}
 
-@media only screen and (min-device-width : 1024px) and (max-device-width: 1824px) {}
+@media only screen and (min-device-width : 1024px) and (max-device-width: 1824px) {
+
+    .slideInDown { -webkit-animation-name: slideInDown; animation-name: slideInDown; top: 50%; transform: translate(-40%, -50%); }
+
+    .main-num-txt, .main-num-txt-1 {
+        font-size: 2.4vw;
+    }
+
+}
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 896px) {}
 
